@@ -1,0 +1,10 @@
+quarkus:
+
+  devservices:
+    enabled: false
+
+  hibernate-orm:
+    schema-management:
+      strategy: none
+    database:
+      default-schema: tci

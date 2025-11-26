@@ -1,0 +1,17 @@
+quarkus:
+
+  datasource:
+    db-kind: postgresql
+    username: postgres
+    password: postgres
+    jdbc:
+      url: jdbc:postgresql://postgres:5432/postgres
+
+  hibernate-orm:
+    log:
+      sql: true
+      bind-parameters: true
+    schema-management:
+      strategy: validate
+    database:
+      default-schema: tci-test
